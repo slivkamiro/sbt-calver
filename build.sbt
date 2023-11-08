@@ -1,5 +1,6 @@
 
 inThisBuild(List(
+  sonatypeCredentialHost := "s01.oss.sonatype.org",
   organization := "io.github.slivkamiro",
   homepage := Some(url("https://github.com/slivkamiro/sbt-calver")),
   licenses := List("Apache-2.0" -> url("http://www.apache.org/licenses/LICENSE-2.0")),
@@ -17,6 +18,7 @@ lazy val root = (project in file("."))
   .enablePlugins(SbtPlugin)
   .settings(
     name := "sbt-calver",
+    sonatypeRepository := "https://s01.oss.sonatype.org/service/local",
     scriptedLaunchOpts   += s"-Dplugin.version=${version.value}",
     pluginCrossBuild / sbtVersion := {
       scalaBinaryVersion.value match {
