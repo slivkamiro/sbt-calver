@@ -1,14 +1,14 @@
 
 inThisBuild(List(
-  organization := "me.slivkamiro.sbt",
+  organization := "io.github.slivkamiro",
   homepage := Some(url("https://github.com/slivkamiro/sbt-calver")),
   licenses := List("Apache-2.0" -> url("http://www.apache.org/licenses/LICENSE-2.0")),
   developers := List(
     Developer(
       "slivkamiro",
       "Miroslav Slivka",
-      null,
-      null
+      "mi.slivka@gmail.com",
+      url("https://github.com/slivkamiro")
     )
   )
 ))
