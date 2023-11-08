@@ -11,7 +11,7 @@ Inpired by:
 Add this to your sbt build plugins:
 
 ```sbt
-addSbtPlugin("me.slivkamiro.sbt" % "sbt-calver" % "x.y.z")
+addSbtPlugin("io.github.slivkamiro" % "sbt-calver" % "x.y.z")
 ```
 
 Supported configuration options:
