@@ -26,7 +26,7 @@ object CalverPlugin extends AutoPlugin {
   import autoImport._
 
   override def buildSettings: Seq[Setting[_]] = Seq(
-    versionFormat := "YY.0M",
+    versionFormat := "YY.MM",
     calverDate := new Date,
     version := getVersion.value(
       buildBase.value,
