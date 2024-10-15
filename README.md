@@ -16,7 +16,7 @@ addSbtPlugin("io.github.slivkamiro" % "sbt-calver" % "x.y.z")
 
 Supported configuration options:
 
-* `versionFormat` - changes how the date is formatted in version , defaults to `YY.0M` which produces version like `YY.0M.patch`
+* `versionFormat` - changes how the date is formatted in version , defaults to `YY.MM` which produces version like `YY.MM.patch`
 
 Assuming default `versionFormat` your version will be set to:
 
